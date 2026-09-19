@@ -366,6 +366,17 @@ body { padding-top: 4.25rem; }
   .rail__list a { padding: 0.5rem 0; }
 }
 
+/* ─── The work ────────────────────────────────────────────────────────────── */
+
+.prose { max-width: 60ch; margin-top: 2.25rem; }
+.prose p {
+  color: var(--dim);
+  font-size: clamp(1rem, 1.7vw, 1.0625rem);
+  line-height: 1.7;
+}
+.prose p + p { margin-top: 1.3rem; }
+.prose strong { color: var(--fg); font-weight: 500; }
+
 /* ─── Player frame (intro + every call) ───────────────────────────────────── */
 
 .player {
